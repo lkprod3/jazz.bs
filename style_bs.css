@@ -97,17 +97,17 @@ h1, h4 {
 	filter:0;
 	mix-blend-mode: multiply;
 }
-.container:hover .overlay1 {
+.container-fluid:hover .overlay1 {
   opacity: 1;
 	width:100%;
 	background-color: blue;
 }
-.container:hover .overlay2 {
+.container-fluid:hover .overlay2 {
   opacity: 1;
 	width:100%;
 	background-color: #FFDB7D;
 }
-.container:hover .overlay3 {
+.container-fluid:hover .overlay3 {
   opacity: 1;
 	width:100%;
 	background-color: red;
