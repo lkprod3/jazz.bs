@@ -1,0 +1,148 @@
+﻿/* CSS Document */
+
+/* mapeando as fontes pq so preguiçoso */
+
+@font-face {
+    font-family: NF2_tit;
+    src: url("fonts/Neutraface No. 2 Display Titling_0.otf") format("opentype");
+}
+@font-face {
+    font-family: NF2_titB;
+    src: url("fonts/Neutraface No. 2 Text Bold_0.otf") format("opentype");
+}
+@font-face {
+    font-family: NF2_txt;
+    src: url("fonts/Neutraface No. 2 Text Light_0.otf") format("opentype");
+}
+
+/*-----------*/
+a {
+	color:#4A4C46;
+}
+a:hover:not(.closebtn, table) {
+	background-color:#4A4C46;
+}
+	
+/* menu aberto */
+.sidenav {
+    height: 70%; /* altura do bagulho */
+    width: 0; /* MUDA PELO JAVASCRIPT NÃO POR AQUI AAAAAAAAAAAAAAA */
+    position: fixed; /* continuar no canto da tela msm quando rolar */
+    z-index: 1; /* ficar no topo */
+    top: 0; /* ficar no topo */
+	right: 0; /* sei la */
+    background-color: #FFBF14; /* Amarelo paleta nova */
+    overflow-x: hidden; /* desativar scroll horizontal */
+    padding-top: 70px; /* dã */
+    transition: 0.5s; /* tempo da animação */
+	border-left:solid 0px #4A4C46;
+	border-bottom:solid 4px #4A4C46;
+	border-top-left-radius:15px;
+	border-bottom-left-radius:35px;
+	filter:drop-shadow(0px 0px 10px #000000);
+}
+
+/* links da sidebar */
+.sidenav a {
+    padding: 8px 32px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+	font-family:"NF2_tit";
+	text-align:center;
+	background-color:FFDB7D;
+	transition:0.5s;
+}
+/* hover dos link */
+.sidenav a:hover:not(.closebtn) {
+    color: #000000;
+	background-color:#FFDB7D;
+	border-radius:18px;
+	margin-left:10px;
+	margin-right:10px;
+	transition:0.1s;
+}
+
+/* batata */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.menubtn {
+	float:right;
+	position:relative;
+	white-space:nowrap;
+	text-shadow:
+		-1px -1px 0 #F0BD2E,
+		1px -1px 0 #F0BD2E,
+		-1px 1px 0 #F0BD2E,
+		1px 1px 0 #F0BD2E;
+	filter: drop-shadow(0px 1px 2px #F0BD2E);
+	padding-right:50px;
+	transition:1s;
+}
+.menubtn_sml {
+	display:none;
+}
+.menubtn, .menubtn_sml, .closebtn:hover {
+	cursor:pointer;
+}
+.closebtn {
+	font-family:"NF2_tit";
+	z-index:3;
+	white-space:nowrap;
+}
+.closebtn:hover {
+	cursor:pointer;
+}
+
+body {
+	margin:auto;
+	height:9000px;
+	background-image:url("img/bgpt.png");
+	background-repeat:repeat;
+	background-position:top;
+	background-color:#fff8f0;
+}
+.header_main {
+	font-family:"NF2_tit";
+	width:100%;
+	background-color:#FFBF14;
+}
+.header_blankspace {
+	width:50%;
+}
+.logo {
+	white-space:nowrap;
+}
+.logo h1 {
+	font-size:80px;
+	margin:20px 0 20px 50px;
+	transition:1s;
+}
+/* Alterar tamanhos e etc quando em tela de celular */
+@media screen and (max-width: 800px) {
+	.logo h1 {
+		font-size:30px;
+		margin:5px 0 5px 5px;
+	}
+    .sidenav a {
+		font-size: 18px;
+	}
+	
+	.menubtn {
+		font-size: 10px;
+		writing-mode:vertical-lr;
+		text-orientation:mixed;
+		margin:-5px 5px 0 0;
+		padding:0;
+		display:none;
+	}
+	.menubtn_sml {
+		display:inline-block;
+		margin-right:5px;
+	}
+}
