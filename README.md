@@ -1,4 +1,4 @@
-## JAzz & Blues (name subject to change)
+## Jazz & Blues (name subject to change)
 ###
 
 **jazz.bs** is a re-do of a site I made with **really** messy code (found inside the `earlyver/` folder; you can see it by clicking [here](http://lkprod3.github.io/jazz.bs/earlyver/)), this time focusing on a more responsive design rather than adapted by implementing the following:
