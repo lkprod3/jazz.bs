@@ -122,9 +122,9 @@ h4::before {
   visibility: hidden; 
   pointer-events: none;
 }
-.carousel-control-prev {
+/*.carousel-control-prev {
   margin-left: -85px;
 }
 .carousel-control-next {
   margin-right: -85px;
-}
+}*/
