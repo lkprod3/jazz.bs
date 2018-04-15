@@ -26,4 +26,4 @@ Layout and wireframing have been based on [this Figma project](https://www.figma
 - [ ] **Properly resize content to smaller devices through** `style_bs.css`
 
 
-*Please keep in mind that this is a college project, and is is **not** intended for commercial use of any sort.*
+*Please keep in mind that this is a college project, and is **not** intended for commercial use of any sort.*
