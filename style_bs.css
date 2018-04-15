@@ -1,0 +1,131 @@
+﻿/* CSS Document */
+
+/* mapeando as fontes pq so preguiçoso */
+
+@font-face {
+    font-family: NF2_tit;
+    src: url("fonts/Neutraface No. 2 Display Titling_0.otf") format("opentype");
+}
+@font-face {
+    font-family: NF2_titB;
+    src: url("fonts/Neutraface No. 2 Text Bold_0.otf") format("opentype");
+}
+@font-face {
+    font-family: NF2_txt;
+    src: url("fonts/Neutraface No. 2 Text Light_0.otf") format("opentype");
+}
+body {
+	position:relative;
+	height:9000px;
+	background:url(img/bgpt.png);
+	background-position:bottom;
+	padding-top:160px;
+	overflow-x: hidden;
+}
+h1, h4 {
+	font-family:"NF2_tit";
+	font-size:70px;
+}
+.header1 {
+	background-color:#FFBF14;
+	border-bottom:solid 1px #FFBF14;
+}
+.header2 {
+	font-family:"NF2_titB";
+	background-color:#FFDB7D;
+	text-align:center;
+	border-bottom:solid 2px #FFBF14;
+	top:-2px;
+	position:relative;
+	font-size:25px;
+}
+.fixed-top {
+	filter:drop-shadow(0 0 5px grey);
+}
+.carousel-indicators {
+    float:right;
+    right:-10%;
+    left:inherit;
+}
+.carousel-indicators:hover {
+	cursor: pointer;
+}
+.carousel-indicators--round li {
+    border-radius: 10px;
+    margin: 1px 3px;
+    height: 10px;
+    max-width: 10px;
+    border: 1px solid #FFF;
+    background-color: white;
+	filter:drop-shadow(0px 0px 1px black);
+}
+.carousel-indicators .active {
+    background-color: #FFBF14;
+	border:0;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+.carousel-inner {
+  max-height: 220px !important;
+}
+.carousel {
+	height: 220px !important;
+	max-height: 220px;
+	filter:drop-shadow(0 1px 3px black);
+	margin-left:auto;
+	margin-bottom:50px;
+}
+.carousel-control-prev-icon {
+	background-image: url(data:image/png;base64,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);
+		height:10%;
+}
+.carousel-control-next-icon {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAmCAYAAAAxxTAbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUjSURBVHgBvZddTBxVFMfPuXdmWaDYrUDRUlEQRbHQRto+EB+ID01jTKixa6KJ1jZtNT41EaIxRpbEJ4VofNFUE4iPXZ9MExONaTWpMSkEMK1lWz5aDX1wP7q7suzO7swcz92v0P1iwaaHzO4wc2d+9/8/594DAMXh4mOEjwt8HIF7HUSA/DWpTtcdx+BehQLQhQFNk/h9AUQdb8L/CJEDwMUBCQ1a/b5u1/kS4yak3DpIZL54sjXNeiRe0/jzN/23Trz02LeFAy1r6yCpPjwMC/fcrkeyd0lJ3Yf7H2p2OqS4eDnw8PrBrFgVwi0+ZmETkVHi4ZO4LhwgdLJkAwq76cyxDvxkaM9fJZ6ZkJkcIVQZWbs8ZIpV07atmBAU5BnfQcDU2+721NjwM7cLH7IyOaq66rIQhGi8JYlOLUgmLhGIqwS0QEiRUy+3J8aH9qwUgThHUGXV5SXz7AVMv+gMG3YzoujUJOy1iPbzkC5E3H7Wu+wcGrvSWuIdxyGztsqGlqch2ER9CePH3wIP1BEl+Zbm0MAySU2g67S7XY1ZeffTItBE9nuyHETcJQtH7ZZD/fHoGnJexIKZhDlkfazTR0SRk0fbE2PDxdZBdh1RmWIoeZFohF89XdI6vu36+rubNZuxTpQksyLoY+tWUwGHI3HDtGBOajilFPG6jbB1ifEKiqqC5EDKulpdWWcvmBbOpq1Dmk9XnbKudNV9RufcsipIXlFvf1wpItNatE1rViIrssmHDJISHYXPSIFR6IjXnFsH0mCDUCDOUZxz5A8bACZYJITAsYkbj49+6WsuHH/k+V1n14RwHWiuD3FV2lyRJKCKyOXItU0pwsXXhi+3MOBg4bgP3+q6NPHxs/6kae50Qdjp8YykC6sqSCZGCXyuRMcLPx0+/8s/w4V3P3+/N/Leic4k560VULj0WrvG48nc29Cu9aG96n2dE/tV4fUvPuiNHR9si6uWYfOPll0ZXu+fWDVENTX2Vm2IE1CkoMfPgCSfBjh5fyPhCu/i4VRcM9xXu1VX3Xi7VgCNAVYJwPhwz8pp96OGzWuHa2GeTJrSJU7HTFpoNJqCMDBpbJj4NEArDzjlbkvwaZjnOm9a9jQKnCVBy43/GmGvP5ZSgIpK8gCrPICHRIDQxx112kYx45C0EA0aQbWIAUcJM3+ElM5JpRzkADZhlBubj9v1FFlilnRrMepPBVsiroSqxBxAhSinoBzg5NE2g18e4WOe3ZiSIGZSrMDwpwJpgNtr52wqCckA5GAli9jhiJ21CKWYIVhbTLJFv5YBFEG8XrfgPn+mHIDYIsgq4BYwI8FejPIGqnLgfqU04C4IjYwI925wNG7XpyoBpAIAzkqVZJ0V+IpzUBgyZxM079RjVmzHgX074teXV59qb62XH73zdOiNwd1JlWTefa8JoGmTAbqML9TqVvAHBrjd5RXkAjMQwsClwW1OLfWIjXI/EjzHnX0vP9zI/IxFKgfKIlZQy6tbbZhpBRsA1tnlQSMRc/CMG1haE199kIuYewWGBMK1HMDknqLWgXep1lA7czUAFfl10lCnsR40UcIaEgWA0hMI8cuvgCbmVJJjTl4HK2wRJxk2EXm74I9DdRHD0aIRPMEWtXOLrVdKEKwlM4U3VXdsqVCmVShh1u99SXqyIWTWNVyHpB1A3daFFKtC6iHjTjyS3iqqzEFJJRk1uf9RtnEuEno0KaUphBlqBKOz82Aq3R23GEUbpIKptulRv6Q/tjb7+x7/Aeeduxw4gBDfAAAAAElFTkSuQmCC);
+		height:10%;
+}
+.overlay1, .overlay2, .overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1;
+  right: 0;
+  height: 100%;
+  width: 0%;
+  opacity: 0;
+  transition: .5s ease;
+	filter:0;
+	mix-blend-mode: multiply;
+}
+.container:hover .overlay1 {
+  opacity: 1;
+	width:100%;
+	background-color: blue;
+}
+.container:hover .overlay2 {
+  opacity: 1;
+	width:100%;
+	background-color: #FFDB7D;
+}
+.container:hover .overlay3 {
+  opacity: 1;
+	width:100%;
+	background-color: red;
+}
+.nav-justified {
+	white-space: nowrap;
+}
+h4::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -170px; 
+  height: 170px; 
+  visibility: hidden; 
+  pointer-events: none;
+}
+.carousel-control-prev {
+  margin-left: -85px;
+}
+.carousel-control-next {
+  margin-right: -85px;
+}
