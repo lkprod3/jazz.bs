@@ -8,11 +8,11 @@
 }
 @font-face {
     font-family: NF2_titB;
-    src: url("fonts/Neutraface No. 2 Text Bold_0.otf") format("opentype");
+    src: url("../fonts/Neutraface-No.-2-Text-Bold_0.woff") format("opentype");
 }
 @font-face {
     font-family: NF2_txt;
-    src: url("fonts/Neutraface No. 2 Text Light_0.otf") format("opentype");
+    src: url("../fonts/Neutraface-No.-2-Text-Light_0.woff") format("opentype");
 }
 
 /*-----------*/
