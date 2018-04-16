@@ -20,6 +20,7 @@ body {
 	background:url(img/bgpt.png);
 	background-position:bottom;
 	padding-top:160px;
+	width:100%;
 }
 h1, h4 {
 	font-family:"NF2_tit";
