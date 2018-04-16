@@ -20,7 +20,6 @@ body {
 	background:url(img/bgpt.png);
 	background-position:bottom;
 	padding-top:160px;
-	overflow-x: hidden;
 }
 h1, h4 {
 	font-family:"NF2_tit";
@@ -29,7 +28,6 @@ h1, h4 {
 .header1 {
 	background-color:#FFBF14;
 	border-bottom:solid 1px #FFBF14;
-	overflow:auto;
 }
 .header2 {
 	font-family:"NF2_titB";
