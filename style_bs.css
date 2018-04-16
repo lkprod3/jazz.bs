@@ -22,11 +22,14 @@ body {
 	padding-top:160px;
 	overflow-x: hidden;
 }
-h1, h4 {
+h1, h2, h4 {
 	font-family:"NF2_tit";
 }
 h1 {
 	font-size:70px;
+}
+h2 {
+	font-size:35px;
 }
 .header1 {
 	background-color:#FFBF14;
@@ -164,4 +167,8 @@ h4::before {
 }
 .dropdown-item:active {
 	background-color:#ffbf14;
+}
+.btn_xs {
+	border:0;
+	font-weight:bolder;
 }
