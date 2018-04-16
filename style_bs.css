@@ -165,7 +165,7 @@ h4::before {
 	background-color:#ffdb7d;
 	color:black;
 }
-.dropdown-item:active {
+a.dropdown-item.active {
 	background-color:#ffbf14;
 }
 .btn_xs, .btn_nrml {
