@@ -20,9 +20,12 @@ body {
 	background:url(img/bgpt.png);
 	background-position:bottom;
 	padding-top:160px;
+	overflow-x: hidden;
 }
 h1, h4 {
 	font-family:"NF2_tit";
+}
+h1 {
 	font-size:70px;
 }
 .header1 {
