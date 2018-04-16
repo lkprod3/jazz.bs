@@ -3,29 +3,7 @@
 /* Javascript da sidenav */
 
 /* Abrir sidenav */
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px"; /* abrir a sidenav */
-	document.getElementById("mySidenav").style.borderLeftWidth = "3px";
-	document.getElementById("main").style.filter = "blur(5px) contrast(60%) brightness(60%)";
-	document.getElementById("footer").style.filter = "blur(5px) contrast(60%) brightness(60%)";
-	document.getElementById("preftr").style.filter = "blur(5px) contrast(60%) brightness(60%)";
-	document.body.style.backgroundImage = "url(img/bgpt_blur.png)";
-}
-
-/* Fechar sidenav */
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0"; /* fechar a sidenav */
-	document.getElementById("mySidenav").style.borderLeftWidth = "0";
-	document.getElementById("main").style.filter = "blur(0px)";
-	document.getElementById("footer").style.filter = "blur(0px)";	
-	document.getElementById("preftr").style.filter = "blur(0px)";
-	document.body.style.backgroundImage = "url(img/bgpt.png)";
-	
-}
-
-function testando() {
-		document.getElementById("img1").style.backgroundImage="img/asdf.jpg";
-}
+f
 
    $(document).ready(function(){
   // Add smooth scrolling to all links
