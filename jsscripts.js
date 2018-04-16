@@ -1,10 +1,5 @@
 // JavaScript Document
 
-/* Javascript da sidenav */
-
-/* Abrir sidenav */
-f
-
    $(document).ready(function(){
   // Add smooth scrolling to all links
   $(".navbar1 a").on('click', function(event) {
