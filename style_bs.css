@@ -95,6 +95,7 @@ h1, h4 {
   transition: .5s ease;
 	filter:0;
 	mix-blend-mode: multiply;
+	cursor:pointer;
 }
 .container-fluid:hover .overlay1 {
   opacity: 1;
@@ -132,3 +133,33 @@ h4::before {
 .carousel-control-next {
   margin-right: -85px;
 }*/
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+	color:black;
+}
+.nav-pills .nav-link.hover, .nav-pills .show>.nav-link {
+	color:purple;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	color:white;
+	background-color:#F3B000;
+}
+.nav-pills .nav-link {
+	border-radius:0;
+	width:100%;
+}
+.dropdown-menu{
+	width:100%;
+	text-align:center;
+	border-top-left-radius:0;
+	border-top-right-radius:0;
+	background-color:#f3b000;
+	border:0;
+	margin-top:-2px;
+}
+.dropdown-item:hover {
+	background-color:#ffdb7d;
+	color:black;
+}
+.dropdown-item:active {
+	background-color:#ffbf14;
+}

@@ -54,6 +54,18 @@ function testando() {
 
 var navOffset = $('.nav').height();
 
+// Change main paragraph when clicking on carousel images
+function change_txt1() {
+ document.getElementById('txt_noticia1').innerHTML = 'Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1 Parágrafo 1';
+}
+
+function change_txt2() {
+	document.getElementById('txt_noticia1').innerHTML = 'Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2 Parágrafo 2';
+}
+function change_txt3() {
+	document.getElementById('txt_noticia1').innerHTML = 'Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3';
+}
+
 //$('.nav li a').click(function(event) {
 //    var href = $(this).attr('href');
 //
