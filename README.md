@@ -18,12 +18,13 @@ Layout and wireframing have been based on [this Figma project](https://www.figma
 - [ ] Finish Homepage (basis for all the rest)
   - [x] Fix Carousel resizing in homepage at smaller resolutions
   - [ ] Edit scrolled images to ensure consistent height
-  - [ ] Fix navbar/menu colors
+  - [x] Fix header colors
   - [ ] Insert missing images/containers
 - [ ] Finish the main content of the site
 - [ ] Figure out a way to insert a footer into the site
 - [ ] Add some sort of input to implement cookies
-- [ ] **Properly resize content to smaller devices through** `style_bs.css`
+- [x] **Properly resize content to smaller devices through** `style_bs.css`
+  <br>&nbsp;*Seems to be working at the moment, but might need some checking later on*
 
 
 *Please keep in mind that this is a college project, and is **not** intended for commercial use of any sort.*
