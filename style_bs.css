@@ -12,7 +12,7 @@
 }
 @font-face {
     font-family: NF2_txt;
-    src: url("fonts/Neutraface-No.-2-Text-Light_0.otf") format("woff");
+    src: url("fonts/Neutraface-No.-2-Text-Light_0.woff") format("woff");
 }
 body {
 	position:relative;
@@ -21,6 +21,20 @@ body {
 	background-position:bottom;
 	padding-top:160px;
 	overflow-x: hidden;
+}
+p {
+	font-family:"NF2_txt";
+	font-size:18px;
+	font-weight: 200;
+}
+h3 {
+	font-family:"NF2_titB";
+	font-size:50px;
+}
+h5 {
+	font-family:"NF2_titB";
+	font-size:80px;
+	
 }
 h1, h2, h4 {
 	font-family:"NF2_tit";
@@ -102,6 +116,26 @@ h2 {
 	mix-blend-mode: multiply;
 	cursor:pointer;
 }
+.overlay4 {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 1;
+  height: 100%;
+  width: 0%;
+  opacity: 0;
+  transition: .5s ease;
+	filter:0;
+mix-blend-mode:soft-light;
+	cursor:pointer;
+}
+.col-2:hover .overlay4 {
+	opacity:1;
+	width:100%;
+	background-color:purple;
+	cursor:pointer;
+}
 .container-fluid:hover .overlay1 {
   opacity: 1;
 	width:100%;
@@ -181,4 +215,20 @@ a.dropdown-item.active {
 	div#menusticky_navbar.container-fluid.navbar1 {
 		font-size:15px;
 	}
+}
+.bottom_text1 {
+	position:absolute;
+	bottom:0;
+}
+
+.hethicc {
+	font-size:50px;
+}
+
+.wide1, .wide2 {
+	letter-spacing: 5px;
+}
+
+.wide3 {
+	letter-spacing: 1em;
 }
