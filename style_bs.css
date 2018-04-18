@@ -159,13 +159,13 @@ h2 {
   opacity: 0;
   transition: .5s ease;
 	filter:0;
-mix-blend-mode:soft-light;
+mix-blend-mode:hard-light;
 	cursor:pointer;
 }
 .col-2:hover .overlay4 {
 	opacity:1;
 	width:100%;
-	background-color:purple;
+	background-color:#005686;
 	cursor:pointer;
 }
 .container-fluid:hover .overlay1 {
