@@ -246,7 +246,7 @@ a.dropdown-item.active {
 
 @media (max-width: 767.98px) {
 	div#menusticky_navbar.container-fluid.navbar1 {
-		font-size:15px;
+		font-size:12px;
 	}
 }
 
@@ -280,4 +280,24 @@ img {
 }
 .btn-padrao:hover {
 	background-color: #ffbf14;
+}
+
+.img-prof {
+	width:10vw;
+}
+
+.bg-ac-nina {
+	background-color:#ffc945;
+}
+
+.bg-ac-john {
+	background-color:#f47a2d;
+}
+
+.bg-ac-miles {
+	background-color:#73cbf3;
+}
+
+.notgiant {
+	font-size:30px;
 }
