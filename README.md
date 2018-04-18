@@ -6,7 +6,6 @@
   * Cleaner HTML and CSS
   * Better use of custom styles
   * Proper jQuery and Javascript
-    * Mainly for Scrollspy and animations
 
 Layout and wireframing have been based on [this Figma project](https://www.figma.com/file/gZxGM3MBrITtwrkJdxgysMhb/Wireframe?node-id=136%3A616).
 
