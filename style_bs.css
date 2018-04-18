@@ -36,8 +36,11 @@ h5 {
 	font-size:80px;
 	
 }
-h1, h2, h4 {
+h1, h2 {
 	font-family:"NF2_tit";
+}
+h4 {
+	font-family:"NF2_titB";
 }
 h1 {
 	font-size:70px;
@@ -205,6 +208,7 @@ a.dropdown-item.active {
 .btn_xs, .btn_nrml {
 	border:0;
 	font-weight:bolder;
+	font-size:22px;
 }
 .btn_nrml:active, .btn_nrml:hover, .btn_xs:active, .btn_xs:hover {
 	background-color:#ffdb7d;
@@ -235,4 +239,9 @@ img {
 
 #noticia {
 	margin:auto;
+}
+
+.nodeco, .nodeco:hover {
+	text-decoration:none;
+	color:black;
 }
