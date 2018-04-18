@@ -39,6 +39,11 @@ function change_txt3() {
 	document.getElementById('txt_noticia1').innerHTML = 'Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3 Parágrafo 3';
 }
 
+//$( document ).ready(function() {
+//var fheight = $('#header 1').height();
+//$("::-webkit-scrollbar-thumb").css("height", ""+fheight+"");
+//});
+
 //$('.nav li a').click(function(event) {
 //    var href = $(this).attr('href');
 //

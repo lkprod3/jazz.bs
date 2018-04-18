@@ -14,9 +14,33 @@
     font-family: NF2_txt;
     src: url("fonts/Neutraface-No.-2-Text-Light_0.woff") format("woff");
 }
+
+/* Scrollbar settings */
+/* width */
+::-webkit-scrollbar {
+    width:0.6vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color:rgba(154,151,151,0.2);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #FFBF14;
+	box-shadow:0 1px 100px black;
+	height:110px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color:#FFDB7D;
+}
+/* */
+
 body {
 	position:relative;
-	height:9000px;
+	height:9500px;
 	background:url(img/bgpt.png);
 	background-position:bottom;
 	padding-top:160px;
