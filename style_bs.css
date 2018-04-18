@@ -15,6 +15,13 @@
     src: url("fonts/Neutraface-No.-2-Text-Light_0.woff") format("woff");
 }
 
+
+.fontTtx {
+	font-family:"NF2_txt";
+}
+.fontTitB {
+	font-family:"NF2_titB";
+}
 /* Scrollbar settings */
 /* width */
 ::-webkit-scrollbar {
@@ -266,4 +273,11 @@ img {
 .nodeco, .nodeco:hover {
 	text-decoration:none;
 	color:black;
+}
+
+.btn-padrao {
+	background-color:#ffdb7d;
+}
+.btn-padrao:hover {
+	background-color: #ffbf14;
 }
