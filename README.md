@@ -2,9 +2,9 @@
 ###
 
 **jazz.bs** is a re-do of a site I made with **really** messy code (found inside the `earlyver/` folder; you can see it by clicking [here](http://lkprod3.github.io/jazz.bs/earlyver/)), this time focusing on a more responsive design rather than adapted by implementing the following:
-  * Bootstrap v4
+  * Bootstrap v4.1
   * Cleaner HTML and CSS
-  * Better use of custom styles
+  * Proper usage of custom HTML/CSS classes
   * Proper jQuery and Javascript
 
 Layout and wireframing have been based on [this Figma project](https://www.figma.com/file/gZxGM3MBrITtwrkJdxgysMhb/Wireframe?node-id=136%3A616).
@@ -14,14 +14,14 @@ Layout and wireframing have been based on [this Figma project](https://www.figma
 ## To-do
 - [x] **Insert Bootstrap into the project**
 - [ ] **Get a proper name and logo**
-- [ ] Finish Homepage (basis for all the rest)
+- [x] Finish Homepage (basis for all the rest)
   - [x] Fix Carousel resizing in homepage at smaller resolutions
-  - [ ] Edit scrolled images to ensure consistent height
   - [x] Fix header colors
-  - [ ] Insert missing images/containers
-- [ ] Finish the main content of the site
+  - [x] Insert missing images/containers
+- [x] Finish the main content of the site
+- [ ] Edit scrolled images to ensure consistent height
 - [ ] Figure out a way to insert a footer into the site
-- [ ] Add some sort of input to implement cookies
+- [x] Add some sort of input to implement cookies
 - [x] **Properly resize content to smaller devices through** `style_bs.css`
   <br>&nbsp;*Seems to be working at the moment, but might need some checking later on*
 
