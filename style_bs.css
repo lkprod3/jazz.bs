@@ -306,3 +306,19 @@ img {
 	font-size:60px;
 	letter-spacing:px;
 }
+.largo2 {
+	font-size:90px;
+}
+.w-50 {
+	width:50%;
+}
+
+.sep {
+	letter-spacing:15px;
+}
+
+#bgmiles {
+	background:url(img/bgmiles.png);
+	background-size:100%;
+	background-position:center;
+}
