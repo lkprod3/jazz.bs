@@ -20,7 +20,6 @@
 	font-family:"NF2_txt";
 }
 
-
 .fontTitB {
 	font-family:"NF2_titB";
 }
@@ -38,7 +37,7 @@
 ::-webkit-scrollbar-thumb {
     background-color: #FFBF14;
 	box-shadow:0 1px 100px black;
-	height:110px;
+	height:85px;
 }
 
 /* Handle on hover */
@@ -49,11 +48,11 @@
 
 body {
 	position:relative;
-	height:9500px;
-/*	background:url(img/bgpt.png);*/
-	background-color:#6C0001;
-	background-position:bottom;
-	padding-top:160px;
+	background-image:url(img/bgtile1.jpg);
+	background-blend-mode:multiply;
+	background-color:darkgrey;
+	background-repeat:repeat;
+	padding-top:75px;
 	overflow-x: hidden;
 }
 p {
@@ -77,7 +76,7 @@ h4 {
 	font-family:"NF2_titB";
 }
 h1 {
-	font-size:70px;
+	font-size:50px;
 }
 h2 {
 	font-size:35px;
@@ -123,13 +122,16 @@ h2 {
     height: 12px;
 }
 .carousel-inner {
-  max-height: 250px !important;
+  max-height: 300px !important;
 }
 .carousel {
-	max-width: 95%;
-	height: 250px !important;
-	max-height: 250px;
-	filter:drop-shadow(0 1px 3px black);margin: 0px auto;
+	width:100%;
+	max-width:100%;
+	height: 300px !important;
+	max-height: 300px;
+	margin: 0px auto;
+	margin-left:0;
+	margin-right:-5px;
 }
 .carousel-control-prev-icon {
 	background-image: url(img/assets/arrow_l.svg);
@@ -171,17 +173,17 @@ mix-blend-mode:hard-light;
 	background-color:#005686;
 	cursor:pointer;
 }
-.container-fluid:hover .overlay1 {
+.carousel:hover .overlay1 {
   opacity: 1;
 	width:100%;
 	background-color: blue;
 }
-.container-fluid:hover .overlay2 {
+.carousel:hover .overlay2 {
   opacity: 1;
 	width:100%;
 	background-color: #FFDB7D;
 }
-.container-fluid:hover .overlay3 {
+.carousel:hover .overlay3 {
   opacity: 1;
 	width:100%;
 	background-color: red;
@@ -253,7 +255,6 @@ a.dropdown-item.active {
 	}
 }
 
-
 hr {
 	border-width:2px 0;
 }
@@ -262,8 +263,6 @@ hr {
 	writing-mode:vertical-rl;
 	text-orientation:sideways;
 }
-
-
 
 img {
 	display:block;
@@ -324,12 +323,16 @@ img {
 	background:url(img/bgmiles.png);
 	background-size:100%;
 	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 
 #bgnina {
 	background:url(img/bgnina.png);
 	background-size:100%;
 	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
 	
 }
 
@@ -337,29 +340,25 @@ img {
 	background:url(img/bgjohn.png);
 	background-size:100%;
 	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
 	
 }
 
 
 
 #opaa {
-	background:white;
+	background:#FFF8F0;
 	box-shadow:0 0 20px 1px black;
-}
-
-#opaa #quasefooter {
-	background-color:#f0bd2e;
-	margin-left:0;
-	margin-right:0;
 	padding-left:0;
 	padding-right:0;
-	width:100%;
-	max-width: 100%;
+}
+
+#quasefooter {
+	background-color:orange;
 }
 
 #footer {
 	background:#303030;
 	color:white;
 }
-
-
