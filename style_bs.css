@@ -122,13 +122,12 @@ h2 {
     height: 12px;
 }
 .carousel-inner {
-  max-height: 300px !important;
+  max-height: 400px !important;
 }
 .carousel {
 	width:100%;
 	max-width:100%;
-	height: 300px !important;
-	max-height: 300px;
+	max-height: 380px;
 	margin: 0px auto;
 	margin-left:0;
 	margin-right:-5px;
