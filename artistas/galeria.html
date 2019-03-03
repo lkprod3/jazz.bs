@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt_BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
+	<title>Artista</title>
+<!--<link href="style.css" rel="stylesheet">-->
+<!-- Bootstrap stuff -->
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="jsscripts.js"></script>
+<link rel="stylesheet" href="artista_default.css">
+</head>
+
+<body>
+	<div id="tudo">
+<header class="shadow">
+
+<!-- Bootstrap stuff -->
+<div id="section1" class="fixed-top" data-offset-top="180">
+<div class="container-fluid pt-3 header1">
+	<div class="row">
+    	<div class="col-auto mr-auto ml-2">
+			<h1 class="d-none d-lg-block"><a href="http://jazzam.net" class="nodeco">jazz after midnight</a></h1>
+			<h1 class="d-none d-sm-block d-lg-none"><a href="http://jazzam.net" class="nodeco">jazz a.m.</a></h1>
+			<h2 class="d-block d-sm-none"><a href="http://jazzam.net" class="nodeco">JAM</a></h2>
+    	</div>
+    	<div class="col-auto align-self-center mb-1 mr-2 ">
+			<h4 class="d-none d-sm-block btn btn-outline-dark btn_nrml" data-toggle="collapse" href="#menusticky" role="button" aria-expanded="false" aria-controls="menusticky">&#9776; Menu</h4>
+			<h4 class="d-block d-sm-none btn btn-outline-dark btn_xs" data-toggle="collapse" href="#menusticky" role="button" aria-expanded="false" aria-controls="menusticky">&#9776;</h4>
+    	</div>
+  	</div>
+</div>
+	<div class="collapse header2" id="menusticky">	
+	<div class="container-fluid navbar1" id="menusticky_navbar">
+  <ul class="nav nav-pills nav-justified"> <!-- d-block d-md-flex"> -->
+    <li class="nav-item">
+      <a class="nav-link" href="http://jazzam.net">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://jazzam.net#history">História</a>
+    </li>
+     <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ícones</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="http://jazzam.net#miles">Miles Davis</a>
+        <a class="dropdown-item" href="http://jazzam.net#nina">Nina Simone</a>
+<!--        <div role="separator" class="dropdown-divider"></div>-->
+        <a class="dropdown-item" href="http://jazzam.net#john">John Coltrane</a>
+		</div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://jazzam.net#galeria">Galeria</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://jazzam.net#newsletter">Newsletter</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://jazzam.net#extra">Notícias</a>
+    </li>
+  </ul>
+</div></div></div>
+</header>
+
+<div class="container pb-1" id="opaa">
+	<img class="d-block w-100 img" src="../img/mainbanner.png" alt="Imagem 0" onClick="change_txt0()">
+	<h3 class="fontTitB font-size50 text-center my-5">GALERIA de<br>
+	ÁLBUNS</h3>
+	<div class="bgMiles pb-5 pt-1">
+	<div class="col ml-5 mt-5"><h3 class="fontTitB font-size50" id="miles">Miles Davis</h3></div>
+	<div class="row container justify-content-center"><img src="img_lib/Miles1.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Miles2.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Miles3.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Miles4.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Miles5.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Miles6.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Miles7.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Miles8.jpg" class="mr-2 mt-2" alt=""></div>
+	</div>
+	
+	<div class="bgNina pb-5 pt-1 my-2 rounded">
+	<div class="col ml-5 mt-5"><h3 class="fontTitB font-size50" id="nina">Nina Simone</h3></div>
+		<div class="row container justify-content-center"><img src="img_lib/Nina1.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Nina2.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Nina3.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Nina4.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Nina5.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Nina6.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Nina7.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/Nina8.jpg" class="mr-2 mt-2" alt=""></div>
+	</div>
+		
+	<div class="bgJohn pb-5 pt-1 my-2">
+	<div class="col ml-5 mt-5"><h3 class="fontTitB font-size50" id="john">John Coltrane</h3></div>
+		<div class="row container justify-content-center"><img src="img_lib/John1.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/John2.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/John3.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/John4.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/John5.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/John6.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/John7.jpg" class="mr-2 mt-2" alt=""><img src="img_lib/John8.jpg" class="mr-2 mt-2" alt=""></div></div>
+	
+	
+	
+</div>
+	<div class="container-fluid pt-3" id="footer">
+    <div class="container">
+		<div class="row text-center pt-4">
+			<div class="col"><h6></h6></div>
+			<div class="col d-none d-md-block"><h6 class="fontTitB">Redes Sociais</h6></div>
+			<div class="col"><h6></h6></div>
+		</div>
+		<div class="row text-center pt-1">
+			<div class="col"><h6></h6></div>
+			<div class="row no-gutters mb-1"><a href="https://facebook.com/Jazz-After-Midnight-190913608407486/" class="mr-5"><img src="../img/assets/fb.png" alt="Facebook" class="rounded social"></a><a href="https://www.instagram.com/jazz_after_midnight/"><img src="../img/assets/in.png" alt="Instagram" class="social"></a><a href="https://open.spotify.com/user/mzoxa4pfzjz02yarcfpnp9nx3?si=yZV00njKSmam50nMC1AgEQ" class="ml-5"><img src="../img/assets/tw.png" alt="Spotify" class="social"></a></div>
+			<div class="col"><h6></h6></div>
+		</div>
+		<div class="row text-center pt-4">
+			<div class="col"><h6></h6></div>
+			<div class="col"><h6 class="fontTitB"><a href="noticias/sobre.html" class="text-white">Sobre o Site</a></h6></div>
+			<div class="col"><h6></h6></div>
+		</div>
+		<div class="row text-center py-4">
+			<div class="col mx-5"><h6 class="copyrighttext fontTtx">CLÁUSULA DE RESERVA (Lei 9.610/98 - LEI DE DIREITOS AUTORAIS): Este site foi publicado e é
+			mantido pelos discentes do 3º semestre, do Curso de Graduação em Design Digital, da Universidade
+Anhembi Morumbi, visando a atender às exigências da disciplina PROJETO INTERDISCIPLINAR: VISUALIZAÇÃO DE DADOS. Trata-se de uma publicação temporária para propósitos estritamente acadêmicos e sem fins lucrativos.
+<br>
+Em atendimento às exigências da Lei 9.610/98, do parágrafo 4°, do Artigo 184, do Código Penal, os discentes responsáveis por esta publicação colocam-se à disposição,
+por intermédio do e-mail <a href="mailto:lima.gabrielkp@gmail.com">lima.gabrielkp@gmail.com</a>, para dirimir quaisquer dúvidas referentes à eventual violação de direitos autorais, comprometendo-se desde já, a retirar
+do ar, qualquer texto, som ou imagem pertencente a autor ou titular que se sinta direta ou indiretamente prejudicado.</h6></div>
+        </div>
+		
+		</div>
+	</div>
+	</div>
+</body>
+</html>
